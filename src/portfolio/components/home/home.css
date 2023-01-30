@@ -1,0 +1,236 @@
+.home__container {
+    row-gap: 4rem;
+}
+
+.home__content {
+    grid-template-columns: 116px repeat(2, 1fr);
+    padding-top: 6rem;
+    column-gap: 2rem;
+    align-items: center;
+}
+
+/*==============SOCIAL MEDIA==================*/
+.home__social {
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+}
+
+.home__social-icon {
+    font-size: 1.5rem;
+    color: var(--title-color);
+}
+
+.home__social-icon:hover {
+    color: var(--primary-color-blue);
+}
+
+/*==============TITTLE,SUBTITLE, PARAGRAPH==================*/
+.home__title {
+    font-size: 2.75rem;
+    margin-bottom: var(--mb-1);
+}
+
+.home__hand {
+    width: 36px;
+    height: 36px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.home__hand-small {
+    width: 28px;
+    height: 28px;
+    margin-top: -8px;
+    margin-right: 0.5rem;
+}
+
+.home__description {
+    max-width: 400px;
+    margin-bottom: var(--mb-2-5);
+
+}
+
+.home__rol {
+
+    font-weight: var(--font-medium);
+}
+
+/*==============PROFILE IMG==================*/
+
+.home__img {
+    background: url(../../../assets//profileNey.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    order: 1;
+    justify-self: center;
+    width: 350px;
+    height: 300px;
+    animation: profile__animate 8s ease-in-out infinite 2s;
+}
+
+@keyframes profile__animate {
+
+    0%,
+    100% {
+        border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+        transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+    }
+
+    34% {
+        border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+        transform: translate3d(0, 5px, 0) rotateZ(0.01deg);
+    }
+
+    50% {
+        transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+    }
+
+    67% {
+        border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+        transform: translate3d(0, -3px, 0) rotateZ(0.01deg);
+    }
+}
+
+.home__scroll {
+    margin-left: -0.5rem;
+    margin-top: 2rem;
+}
+
+.wheel {
+    animation: scroll 2s ease infinite;
+}
+
+.move {
+    animation: hand 2.5s ease-in-out infinite;
+    transform-origin: 50% 50%;
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(3.75rem);
+    }
+}
+
+@keyframes hand {
+    0% {
+        transform: rotate(0.0deg)
+    }
+
+    10% {
+        transform: rotate(14.0deg)
+    }
+
+    20% {
+        transform: rotate(-8.0deg)
+    }
+
+    30% {
+        transform: rotate(14.0deg)
+    }
+
+    40% {
+        transform: rotate(-4.0deg)
+    }
+
+    50% {
+        transform: rotate(10.0deg)
+    }
+
+    60% {
+        transform: rotate(0.0deg)
+    }
+
+    100% {
+        transform: rotate(0.0deg)
+    }
+}
+
+
+/*=============== BREAKPOINTS ===============*/
+
+@media screen and (max-width: 992px) {
+    .home__content {
+        grid-template-columns: 100px repeat(2, 1fr);
+        column-gap: 1.25rem;
+
+    }
+
+    .home__hand {
+        width: 28px;
+        height: 28px;
+    }
+
+    .home__subtitle {
+        padding-left: 3.75rem;
+        margin-bottom: var(--mb-1);
+    }
+
+    .home__subtitle::before {
+        width: 42px;
+        top: 0.8rem;
+    }
+
+    .home__description {
+        max-width: initial;
+        margin-bottom: var(--mb-2-5);
+    }
+
+    .home__img {
+        width: 248px;
+        height: 248px;
+    }
+
+    .home__scroll {
+        margin-left: 7.5rem;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .home__content {
+        grid-template-columns: 0.5fr 3fr;
+        padding-top: 4rem;
+        margin-left: 0;
+    }
+
+    .home__img {
+        order: initial;
+        justify-self: initial;
+    }
+
+    .home__data {
+        grid-column: 1/3;
+    }
+
+    .home__img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .home__scroll {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 350px) {
+    .home__img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .home__hand {
+        width: 22px;
+        height: 22px;
+    }
+
+}

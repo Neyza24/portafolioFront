@@ -1,0 +1,60 @@
+
+.skill__container {
+    width: 976px;
+}
+
+.skill__card {
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.5rem 2rem;
+    margin-bottom: var(--mb-3);
+    max-width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill__img {
+    width: 60px;
+    border-radius: 0.75rem;
+    margin-bottom: var(--mb-1);
+}
+
+.skill__name {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-25);
+}
+
+
+/*=============Swiper Class style ============*/
+.swiper-pagination-bullet {
+    background-color: var(--text-color) !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--title-color) !important;
+}
+
+/*=============== BREAKPOINTS ===============*/
+
+@media screen and (max-width: 992px) {
+    .skill__container {
+        width: initial;
+    }
+
+    .skill__card {
+        padding: 1.25rem 1.5rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .skill{
+        margin-left: 0;
+        padding: 0 24px;
+    }
+    
+}
+
