@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.79629827.css",
+    "main.js": "/static/js/main.3ec4e5e9.js",
+    "static/js/787.e6e00a48.chunk.js": "/static/js/787.e6e00a48.chunk.js",
+    "static/media/cv-neyza-vargas-front-end.pdf": "/static/media/cv-neyza-vargas-front-end.4d0397f9303d1fdf8a9c.pdf",
+    "static/media/about.png": "/static/media/about.536e6fb2e4aff9728e78.png",
+    "static/media/profileNey.png": "/static/media/profileNey.615bcf852da7fb83d6ee.png",
+    "static/media/gifSearch.png": "/static/media/gifSearch.a7ed94fa23f5f3d1f3b5.png",
+    "static/media/heroes.png": "/static/media/heroes.c706878432c1737f507f.png",
+    "static/media/axure.png": "/static/media/axure.a5d834d92326a40bc6f9.png",
+    "static/media/moustach.png": "/static/media/moustach.6814cbd246235a516b22.png",
+    "static/media/searchTodos.png": "/static/media/searchTodos.6a18af9142e6f4984d70.png",
+    "index.html": "/index.html",
+    "main.79629827.css.map": "/static/css/main.79629827.css.map",
+    "main.3ec4e5e9.js.map": "/static/js/main.3ec4e5e9.js.map",
+    "787.e6e00a48.chunk.js.map": "/static/js/787.e6e00a48.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79629827.css",
+    "static/js/main.3ec4e5e9.js"
+  ]
+}
