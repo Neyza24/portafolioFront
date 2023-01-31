@@ -145,6 +145,7 @@ img {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 3.5rem;
+  padding: 0 8px;
 }
 
 .section__title,

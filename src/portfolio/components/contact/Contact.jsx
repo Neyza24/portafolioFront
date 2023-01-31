@@ -12,6 +12,7 @@ const Contact = () => {
             <span className="section__subtitle">Si tienes alguna consulta, me puedes dejar un mensajito o seguir alguno de los enlaces a continuación</span>
 
             <div className="contact__container container grid">
+                <FormComponent />
 
                 <div className="contact__content">
                     {
@@ -20,8 +21,6 @@ const Contact = () => {
                         })
                     }
                 </div>
-
-                <FormComponent />
 
             </div>
 

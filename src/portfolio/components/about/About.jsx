@@ -1,5 +1,5 @@
 import './about.css';
-import AboutImg from '../../../assets/about.png';
+import AboutImg from '../../../assets/about.webp';
 import CV from '../../../assets/cv-neyza-vargas-front-end.pdf';
 
 

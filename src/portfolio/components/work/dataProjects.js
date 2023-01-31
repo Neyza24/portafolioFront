@@ -1,8 +1,8 @@
-import heroes from '../../../assets/heroes.png';
-import moustach from '../../../assets/moustach.png';
-import axure from '../../../assets/axure.png';
-import toDos from '../../../assets/searchTodos.png';
-import gifSearch from '../../../assets/gifSearch.png';
+import heroes from '../../../assets/heroes.webp';
+import moustach from '../../../assets/moustach.webp';
+import axure from '../../../assets/axure.webp';
+import toDos from '../../../assets/searchTodos.webp';
+import gifSearch from '../../../assets/gifSearch.webp';
 
 export const dataProjects = [
   {
